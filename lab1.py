@@ -4,4 +4,8 @@ import requests
 
 print(requests.__version__)
 
-r = requests.get("http://google.com/")
+r = requests.get("http://www.google.com/")
+print(r)
+print(r.text)
+print(r.status_code)
+
